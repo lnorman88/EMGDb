@@ -1,0 +1,15 @@
+C:\Source\EMGDb\EMGDb.Persistence\bin\Debug\net6.0\EMGDb.Persistence.deps.json
+C:\Source\EMGDb\EMGDb.Persistence\bin\Debug\net6.0\EMGDb.Persistence.dll
+C:\Source\EMGDb\EMGDb.Persistence\bin\Debug\net6.0\EMGDb.Persistence.pdb
+C:\Source\EMGDb\EMGDb.Persistence\bin\Debug\net6.0\EMGDb.Domain.dll
+C:\Source\EMGDb\EMGDb.Persistence\bin\Debug\net6.0\EMGDb.Domain.pdb
+C:\Source\EMGDb\EMGDb.Persistence\obj\Debug\net6.0\EMGDb.Persistence.csproj.AssemblyReference.cache
+C:\Source\EMGDb\EMGDb.Persistence\obj\Debug\net6.0\EMGDb.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\EMGDb\EMGDb.Persistence\obj\Debug\net6.0\EMGDb.Persistence.AssemblyInfoInputs.cache
+C:\Source\EMGDb\EMGDb.Persistence\obj\Debug\net6.0\EMGDb.Persistence.AssemblyInfo.cs
+C:\Source\EMGDb\EMGDb.Persistence\obj\Debug\net6.0\EMGDb.Persistence.csproj.CoreCompileInputs.cache
+C:\Source\EMGDb\EMGDb.Persistence\obj\Debug\net6.0\EMGDb.Persistence.csproj.CopyComplete
+C:\Source\EMGDb\EMGDb.Persistence\obj\Debug\net6.0\EMGDb.Persistence.dll
+C:\Source\EMGDb\EMGDb.Persistence\obj\Debug\net6.0\refint\EMGDb.Persistence.dll
+C:\Source\EMGDb\EMGDb.Persistence\obj\Debug\net6.0\EMGDb.Persistence.pdb
+C:\Source\EMGDb\EMGDb.Persistence\obj\Debug\net6.0\ref\EMGDb.Persistence.dll

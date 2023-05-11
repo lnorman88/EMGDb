@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EMGDb.WebApi.props" />
+</Project>

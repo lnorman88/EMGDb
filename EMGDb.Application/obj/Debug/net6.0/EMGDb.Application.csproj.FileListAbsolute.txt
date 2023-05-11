@@ -1,0 +1,17 @@
+C:\Source\EMGDb\EMGDb.Application\bin\Debug\net6.0\EMGDb.Application.deps.json
+C:\Source\EMGDb\EMGDb.Application\bin\Debug\net6.0\EMGDb.Application.dll
+C:\Source\EMGDb\EMGDb.Application\bin\Debug\net6.0\EMGDb.Application.pdb
+C:\Source\EMGDb\EMGDb.Application\bin\Debug\net6.0\EMGDb.Domain.dll
+C:\Source\EMGDb\EMGDb.Application\bin\Debug\net6.0\EMGDb.Persistence.dll
+C:\Source\EMGDb\EMGDb.Application\bin\Debug\net6.0\EMGDb.Domain.pdb
+C:\Source\EMGDb\EMGDb.Application\bin\Debug\net6.0\EMGDb.Persistence.pdb
+C:\Source\EMGDb\EMGDb.Application\obj\Debug\net6.0\EMGDb.Application.csproj.AssemblyReference.cache
+C:\Source\EMGDb\EMGDb.Application\obj\Debug\net6.0\EMGDb.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\EMGDb\EMGDb.Application\obj\Debug\net6.0\EMGDb.Application.AssemblyInfoInputs.cache
+C:\Source\EMGDb\EMGDb.Application\obj\Debug\net6.0\EMGDb.Application.AssemblyInfo.cs
+C:\Source\EMGDb\EMGDb.Application\obj\Debug\net6.0\EMGDb.Application.csproj.CoreCompileInputs.cache
+C:\Source\EMGDb\EMGDb.Application\obj\Debug\net6.0\EMGDb.Application.csproj.CopyComplete
+C:\Source\EMGDb\EMGDb.Application\obj\Debug\net6.0\EMGDb.Application.dll
+C:\Source\EMGDb\EMGDb.Application\obj\Debug\net6.0\refint\EMGDb.Application.dll
+C:\Source\EMGDb\EMGDb.Application\obj\Debug\net6.0\EMGDb.Application.pdb
+C:\Source\EMGDb\EMGDb.Application\obj\Debug\net6.0\ref\EMGDb.Application.dll

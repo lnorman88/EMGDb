@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMGDb.WebApi", "EMGDb.WebApi\EMGDb.WebApi.csproj", "{416A59AB-94FC-4F43-BFDF-32B0627CE4A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMGDb.Application", "EMGDb.Application\EMGDb.Application.csproj", "{7B93750F-DEDF-41B3-9235-72C93B5E05AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMGDb.Persistence", "EMGDb.Persistence\EMGDb.Persistence.csproj", "{8A68F974-1A28-44DF-A2C7-49219C250704}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMGDb.Domain", "EMGDb.Domain\EMGDb.Domain.csproj", "{6D99731B-0DFC-4A4C-A9BB-45F8EF11FD83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6F6F06FE-D52E-432F-A665-536B516E6281}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMGDb.WebApi.Tests", "EMGDb.WebApi.Tests\EMGDb.WebApi.Tests.csproj", "{C7F5FF31-9D5D-4463-A678-9F7A1EAE0527}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{416A59AB-94FC-4F43-BFDF-32B0627CE4A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416A59AB-94FC-4F43-BFDF-32B0627CE4A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416A59AB-94FC-4F43-BFDF-32B0627CE4A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416A59AB-94FC-4F43-BFDF-32B0627CE4A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B93750F-DEDF-41B3-9235-72C93B5E05AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B93750F-DEDF-41B3-9235-72C93B5E05AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B93750F-DEDF-41B3-9235-72C93B5E05AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B93750F-DEDF-41B3-9235-72C93B5E05AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A68F974-1A28-44DF-A2C7-49219C250704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A68F974-1A28-44DF-A2C7-49219C250704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A68F974-1A28-44DF-A2C7-49219C250704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A68F974-1A28-44DF-A2C7-49219C250704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D99731B-0DFC-4A4C-A9BB-45F8EF11FD83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D99731B-0DFC-4A4C-A9BB-45F8EF11FD83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D99731B-0DFC-4A4C-A9BB-45F8EF11FD83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D99731B-0DFC-4A4C-A9BB-45F8EF11FD83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F5FF31-9D5D-4463-A678-9F7A1EAE0527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F5FF31-9D5D-4463-A678-9F7A1EAE0527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F5FF31-9D5D-4463-A678-9F7A1EAE0527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F5FF31-9D5D-4463-A678-9F7A1EAE0527}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7F5FF31-9D5D-4463-A678-9F7A1EAE0527} = {6F6F06FE-D52E-432F-A665-536B516E6281}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1FD3E2D-AE1F-48AE-AFC7-DA9B0CEA0881}
+	EndGlobalSection
+EndGlobal

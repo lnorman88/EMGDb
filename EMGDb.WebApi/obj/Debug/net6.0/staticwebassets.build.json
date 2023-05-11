@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Bu5efHcJWEIRlIMs3oJNdO0JCVRDSjFD8IfaNbuAGq8=",
+  "Source": "EMGDb.WebApi",
+  "BasePath": "_content/EMGDb.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
