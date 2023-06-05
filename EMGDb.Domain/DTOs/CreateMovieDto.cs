@@ -11,7 +11,6 @@ namespace EMGDb.Domain.DTOs
         public Genre Genre { get; set; }
         public DateTime ReleaseDate { get; set; }
         public string Title { get; set; }
-        public GamePlatform Platforms { get; set; }
         public string Runtime { get; set; }
     }
 }

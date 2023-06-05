@@ -3,7 +3,7 @@ using MediatR;
 
 namespace EMGDb.Application.CQRS.Movie.CreateMovie
 {
-    public class CreateMovieEntryHandler : IRequestHandler<CreateMovieEntryQuery, int>
+    public class CreateMovieEntryHandler : IRequestHandler<CreateMovieQuery, int>
     {
         private readonly IMovieRepository _movieRepository;
         public CreateMovieEntryHandler(IMovieRepository movieRepository)
@@ -11,7 +11,7 @@ namespace EMGDb.Application.CQRS.Movie.CreateMovie
             _movieRepository = movieRepository;
         }
 
-        public Task<int> Handle(CreateMovieEntryQuery request, CancellationToken cancellationToken)
+        public Task<int> Handle(CreateMovieQuery request, CancellationToken cancellationToken)
         {
             var result = _movieRepository.CreateMovie(request.CreateMovieEntity, cancellationToken);
 

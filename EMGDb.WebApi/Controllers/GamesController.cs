@@ -23,15 +23,21 @@ public class GamesController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> CreateGameEntry([FromBody] CreateGameDto createGameDto)
     {
-        var result = await _mediator.Send(new CreateGameQuery(createGameDto.ToEntity()));
+        var response = await _mediator.Send(new CreateGameQuery(createGameDto.ToEntity()));
 
-        return Ok(result);
+        if (response is 200)
+            return Ok(response);
+
+        return BadRequest();
     }
 
     [HttpGet]
     public async Task<IActionResult> GetAllGameEntries([FromQuery] GameFilter gameFilter)
     {
         var response = await _mediator.Send(new GetAllGamesQuery(gameFilter));
+
+        if (response.Count is 0)
+            return BadRequest();
 
         var result = response.Select(x => x.ToDto());
 
@@ -43,8 +49,8 @@ public class GamesController : ControllerBase
     {
         if (!string.IsNullOrEmpty(gameId) && Guid.TryParse(gameId, out Guid parsedGameId))
         {
-            var result = await _mediator.Send(new DeleteGameQuery(parsedGameId));
-            return Ok(result);
+            var response = await _mediator.Send(new DeleteGameQuery(parsedGameId));
+            return Ok(response);
         }
 
         return BadRequest();

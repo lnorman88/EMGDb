@@ -23,15 +23,21 @@ namespace EMGDb.WebApi.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateMovieEntry([FromBody] CreateMovieDto createMovieDto)
         {
-            var result = await _mediator.Send(new CreateMovieEntryQuery(createMovieDto.ToEntity()));
+            var response = await _mediator.Send(new CreateMovieQuery(createMovieDto.ToEntity()));
 
-            return Ok(result);
+            if (response is 200)
+                return Ok(response);
+
+            return BadRequest();
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAllMovieEntries([FromQuery] MovieFilter movieFilter)
         {
             var response = await _mediator.Send(new GetAllMoviesQuery(movieFilter));
+
+            if (response.Count is 0)
+                return BadRequest();
 
             var result = response.Select(x => x.ToDto());
 
